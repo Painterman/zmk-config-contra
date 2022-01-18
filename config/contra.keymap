@@ -19,18 +19,17 @@
 };
 / {
     behaviors {
-        slalt: positional_hold_tap {
+        slalt: sticky-key press {
             compatible = "zmk,behavior-hold-tap";
 			label = "Sticky-key press";
             #binding-cells = <2>;
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
             quick-tap-ms = <0>;
-            bindings = <&sk>, <&kp>;
+            bindings = <&kp>, <&kp>;
         };
     };
-};
-/{
+
 	keymap {
 		compatible = "zmk,keymap";
 
