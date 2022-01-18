@@ -29,7 +29,8 @@
             bindings = <&sk>, <&kp>;
         };
     };
-
+};
+/{
 	keymap {
 		compatible = "zmk,keymap";
 
