@@ -17,26 +17,6 @@
         };
     };
 
-	
-	 behaviors {
-        hm: homerow_mods {
-            compatible = "zmk,behavior-hold-tap";
-            label = "homerow mods";
-            #binding-cells = <2>;
-            tapping_term_ms = <150>;
-            flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
-        };
-		slalt: sticky-key press {
-            compatible = "zmk,behavior-hold-tap";
-			label = "Sticky-key press";
-            #binding-cells = <2>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <200>;
-            bindings = <&sk>, <&kp>;
-        };
-    };
-
 	keymap {
 		compatible = "zmk,keymap";
 
