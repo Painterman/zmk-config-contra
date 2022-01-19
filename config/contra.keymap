@@ -23,7 +23,7 @@
             label = "Sticky alternativo";
             #binding-cells = <2>;
             tapping_term_ms = <200>;
-            flavor = "hold-preferred";
+            flavor = "tap-preferred";
             bindings = <&sk>, <&kp>;
         };
 		
