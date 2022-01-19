@@ -24,7 +24,7 @@
             #binding-cells = <2>;
             tapping_term_ms = <200>;
             flavor = "tap-preferred";
-            bindings = <&sk>, <&kp>;
+            bindings = <&kp>, <&sk>;
         };
 		
 		
@@ -42,7 +42,7 @@
 				&gresc  &kp Q    &kp W &kp E &kp R &kp T  &kp Y   &kp U  &kp I    &kp O   &kp P    &kp BSPC
 				&kp TAB  &kp A    &kp S &kp D &kp F &kp G  &kp H   &kp J  &kp K    &kp L   &kp SEMI &kp RET
 				&sk LSHFT &kp Z    &kp X &kp C &kp V &kp B  &kp N   &kp M  &kp COMMA &kp DOT &kp BSLH &kp SQT
-				&sk LCTRL &skalt RALT LGUI &sk LALT &sk LCTRL &sl 1 &kp SPACE &trans &sl 2 &kp LEFT &kp DOWN &kp UP &kp RIGHT
+				&sk LCTRL &skalt LGUI RALT &sk LALT &sk LCTRL &sl 1 &kp SPACE &trans &sl 2 &kp LEFT &kp DOWN &kp UP &kp RIGHT
 			>;
 		};
 
